@@ -1,0 +1,53 @@
+/* stylesheet for etch-a-sketch */
+
+* {
+  font-family: Arial;
+}
+
+.container {
+  height: 1100px;
+  width: 900px;
+  background-color: lightblue;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+header {
+  text-align: center;
+  color: yellow;
+}
+
+.navbar {
+  margin: 0 auto;
+  width: 960px;
+  text-align: center;
+}
+
+button {
+  padding: 23px 18px;
+  background-color: blue;
+  border-radius: 18px;
+  font-size: 40px;
+  
+  margin: 0 10px;
+}
+
+.pad {
+  margin: 30px auto;
+  width: 900px;
+  height: 900px;
+  background-color:red;
+}
+
+.dot {
+  border-radius: 5px;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  float: left;
+  border: 1px solid purple;
+}
+
+.draw {
+  background-color: green;
+}
